@@ -6,4 +6,22 @@ jobs:
       script:
         - javac hello_world.java
         - java HelloWorld
+    - os: freebsd
+      language: java
+      arch: amd64
+      script:
+        - javac hello_world.java
+        - java HelloWorld 
+    - os: freebsd
+      language: java
+      arch: amd64
+      script:
+        - javac hello_world.java
+        - java HelloWorld    
+    - os: freebsd
+      language: java
+      arch: amd64
+      script:
+        - javac hello_world.java
+        - java HelloWorld       
 
