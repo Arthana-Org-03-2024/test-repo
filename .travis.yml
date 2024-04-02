@@ -8,36 +8,5 @@ jobs:
       dist: focal
       script:
         - python hello_world.py
-    - os: linux
-      language: python
-      python:
-       - "3.8"
-      arch: amd64
-      dist: focal
-      script:
-        - python hello_world.py 
-    - os: linux
-      language: python
-      python:
-       - "3.8"
-      arch: amd64
-      dist: focal
-      script:
-        - python hello_world.py    
-    - os: linux
-      language: python
-      python:
-       - "3.8"
-      arch: amd64
-      dist: focal
-      script:
-        - python hello_world.py
-    - os: linux
-      language: python
-      python:
-       - "3.8"
-      arch: amd64
-      dist: focal
-      script:
-        - python hello_world.py    
-
+    
+  
